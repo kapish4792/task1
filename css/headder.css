@@ -1,0 +1,95 @@
+/*Headder Section*/
+    .bg-light {
+        background-color:#d3d6db;
+        padding: 1% 4% 1% 5%;
+        width: 100%;
+        z-index: 999;
+    }
+    #navbar .navigation {
+        background-color: #000;
+
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #000 !important;
+        font-size: 13px;
+    }
+    .nav-link:hover{
+        color: #10c9c3 !important;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: flex-end !important;
+    }
+    .hero-section {
+        background:url(../images/bg.jpg) no-repeat right;
+        height: 570px;
+        background-size: cover;
+    }
+    .Banner-text .btn-primary {
+        background-color:#10c9c3;
+        color: #fff;
+        border: none;
+        border-radius: 0;
+        padding: 10px 25px;
+    }
+
+    .Banner-text .btn-primary:focus,
+    .Banner-text .btn-primary:active {
+        box-shadow: none !important;
+        background-color:transparent !important;
+        color: #000;
+        border: 1px solid #10c9c3;
+    }
+
+    .Banner-text {
+        justify-content: flex-end;
+        padding-top: 60px;
+    }
+/*Headder Section End*/
+
+/*Media query Section mobile*/
+    @media screen and (max-width:480px) {
+        .navbar-nav {
+            width: 100%;
+            text-align: right;
+        }
+        .navbar-expand-lg .navbar-collapse .nav-item a {
+        color: #fff !important;
+    }
+    .navbar-light .navbar-toggler {
+        border: none !important;
+    }
+    .navbar-light .navbar-toggler:focus {
+        border: none;
+    }
+    } 
+/*Media query Section End */
+
+@media screen and (max-width:991px) {
+    .navbar-nav {
+            width: 100%;
+            text-align: right;
+        }
+        .navbar-expand-lg .navbar-collapse .nav-item a {
+        color: #fff !important;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: flex-end !important;
+        position: absolute;
+        right: 0;
+        top: 50px;
+        padding: 10px 23px;
+        z-index: 999;
+        background: #3dc9c3;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .navbar-light .navbar-toggler {
+        border: none !important;
+    }
+    .navbar-light .navbar-toggler:focus {
+        border: none;
+    }
+}
